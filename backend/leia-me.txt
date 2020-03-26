@@ -1,0 +1,58 @@
+*com o powershell administrador
+  - navegar até a pasta backend
+  - digitar "npm init -y" 
+    - comando cria o arquivo package.json 
+  - digitar "code ."
+    - comando abre pasta no VSCode
+
+* VSCode abrir terminal
+  - digitar "npm install express"
+    - comando instala microframework de rotas
+
+  - digitar "node index.js"
+    - comando inicia backend
+
+* nodemon
+
+  - digitar "npm install nodemon -D"
+    - comando instala o nodemon para monitorar alterações nos arquivos e automaticamente
+      reiniciar o Node.js( -D dependencia somente em ambiente de desenvolvimento)
+
+  - Em "package.json" alterar o script e inicialização para nodemon
+    - "scripts": {
+        "start": "nodemon index.js"
+      },
+    - Iniciar Node com o comando "npm start"
+
+* Banco de Dados ( Query Bulder - KNEX )
+  - digitar "npm install  knex"
+    - comando instala o KNEX
+
+  - digitar "npm install sqlite3"
+    - comando instala o driver do SQLLite 
+
+  - digitar "npx knex init"
+    - comando inicializa os arquivos de configuração do KNEX
+
+  - alterar o arquivo knexfile.js e configurar o diretório do database
+
+  - criar uma pasta migrations
+
+  - configurar a pasta migrations no arquivo Knexfile.js
+
+  - digitar "npx knex migrate:make create_ongs"
+    - comando cria arquivo de migrate para a tabela ong 
+    - implementar os métodos UP e DOWN
+
+  - digitar "npx knex migrate:latest"
+    - comando executar as migrates
+
+  - digitar "npx knex migrate:rollback"
+    - comando desfaz a última execução.
+  
+  - digitar "npx knex migrate:status"  
+    - comando exibe quais as migrates que foram executadas
+
+* Segurança
+  - digitar "npm install cors"
+    - comando instala módulo de segurança    

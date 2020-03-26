@@ -1,0 +1,11 @@
+*com o powershell administrador
+  - navegar até a pasta anterior ao backend
+  - digitar "npx create-react-app frontend" 
+    - comando cria a pasta frontend preparada para o react 
+  - acessar pasta frontend
+  - digitar "code ."
+    - comando abre pasta no VSCode
+
+* VSCode abrir terminal
+  - digitar "npm start"
+    - comando inicia frontend

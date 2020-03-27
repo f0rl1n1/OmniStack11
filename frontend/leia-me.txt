@@ -9,3 +9,15 @@
 * VSCode abrir terminal
   - digitar "npm start"
     - comando inicia frontend
+
+* Pacote de ícones
+  - digitar "npm install react-icons"
+    comando instala pacote de ícones    
+
+* Rotas
+  - digitar "npm install react-router-dom"
+    comando instala pacote de navegação    
+
+* Cliente HTTP
+  - digitar "npm install axios"
+    comando install os componentes do cliente HTTP    

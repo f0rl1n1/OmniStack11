@@ -1,0 +1,31 @@
+* instalação do EXPO
+- digite "npm install -g expo-cli"
+  comando instala o expo de forma global no sistema
+
+- depois de instalado acesse a pasta para gerar o projeto
+
+- digite "expo init mobile", selecione "blank"
+  comando inicializa o projeto mobile
+
+- acesse a pasta mobile criada
+- abra no VSCODE
+
+#https://reactnavigation.org/docs/getting-started/
+- digite "npm install @react-navigation/native"
+  comando instala pacote de navegação
+- digite "expo install react-native-gesture-handler react-native-reanimated react-native-screens react-native-safe-area-context @react-native-community/masked-view"
+  comando instala navegação do expo
+- digite "npm install @react-navigation/stack"
+  instala componentes de navegação por botões
+
+- digite "expo install expo-constants"
+  comando instala constantes de estilização
+
+- digite "expo install expo-mail-composer"
+  comando instala componente para envio de email.
+
+- digite "npm install axios"
+  comando instalar cliente HTTP
+
+- digite "npm install intl"
+  comando instala pacote de formatação de valores

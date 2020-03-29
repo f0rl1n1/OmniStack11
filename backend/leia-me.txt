@@ -56,3 +56,20 @@
 * Segurança
   - digitar "npm install cors"
     - comando instala módulo de segurança    
+
+* validações
+  - digitar "npm install celebrate"
+    - comando instala pacotes de validação
+
+* Ferramentas de Testes
+  - digitar "npm install jest"
+    - comando instala pacote de testes
+
+  - digitar "npx jest --init"
+    - comando inicializa templates de teste
+
+  - digitar "npm install cross-env"
+    - comando prepara projeto para ambiente de testes
+
+  - digitar "npm install supertest"
+    - instala pacote de testes de chamadas HTTP
